@@ -3,6 +3,9 @@
 #FIRST STEP IMPORT LIBRARY DATETIME
 
 import datetime as dt
+import os
+
+os.system('cls')
 print ('\nAGE CHEKING AND NEXT BIRTDAY PROGRAM')
 print (9*'====')
 
@@ -46,3 +49,4 @@ nextBirthday = dt.date(year + age + masaDepan , month, date)
 print (f"""\nIN SCALE TIME OF {masaDepan} YEARS FUTURE YOU WILL BIRTHDAY IN {age + masaDepan} YEARS IN {nextBirthday.strftime('%A')}""")
 
 print("\nTHANKS FOR USING THIS PRROGRAM\n")
+#ENDING FROM PROGRAM
